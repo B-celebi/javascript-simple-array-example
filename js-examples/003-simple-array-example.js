@@ -10,7 +10,6 @@ let newArray = param1 => {
     param1.forEach(param1 => {
         param1 = (param1 % 2 == 0) ? narray.push((param1 * 2)) : narray.push((param1 * 3));
     });
-    //console.log(`Çift sayılar = ${paramc} \n Tek sayılar = ${paramt}`);
     console.log("Oluşturulan array:", narray)
 }
 newArray([1, 2, 3, 4, 5]);
